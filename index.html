@@ -48,8 +48,8 @@
 </head>
 <body>
     <div class="redirect-container">
-        <img src="logo.png" alt="Translized Logo" class="logo">
-        <h1>Redirecting to Translized App</h1>
+        <!-- <img src="logo.png" alt="Translized Logo" class="logo"> -->
+        <h1>Translized App</h1>
         <div class="loader"></div>
         <p>If you are not redirected automatically, <a href="https://app.translized.com">click here</a>.</p>
     </div>
@@ -59,9 +59,9 @@
             window.location.href = 'https://app.translized.com' + window.location.pathname + window.location.search;
         } else {
             // For local testing or other domains, redirect after a short delay
-            setTimeout(function() {
+            // setTimeout(function() {
                 window.location.href = 'https://app.translized.com';
-            }, 300);
+            // }, 300);
         }
     </script>
 </body>
